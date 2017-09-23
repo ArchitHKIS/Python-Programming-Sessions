@@ -15,7 +15,8 @@ if operator == 2:
 if operator == 3:
     print num1*num2
 if operator == 4:
-    print num1/num2
+    print float(num1)/num2
+    # float(int) is called casting. We will go over this in the next session.
 if operator == 5:
     print num1**num2
     # the ** operator is the power function which means it does: n^n.
