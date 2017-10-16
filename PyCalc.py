@@ -7,6 +7,9 @@ operator = eval(input("Please enter 1 for Addition, 2 for Subtraction, 3 for Mul
 num1 = eval(input("First number: "))
 num2 = eval(input("Second number: "))
 
+## eval(input) checks to see what type of data is inputted. This is what you use when you want the variable not to be a string
+
+
 if operator == 1:
     # remember to use == for comparing two different variables
     print(num1+num2)
